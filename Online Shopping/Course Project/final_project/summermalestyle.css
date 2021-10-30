@@ -1,0 +1,222 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(profile.JPG);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+	height:720px;
+}
+
+.main-nav{
+	float:right;
+	margin-top:70px;
+}
+.main-nav li{
+	display:inline-block;
+	list-style:none;
+	margin-right:23px;
+}
+.main-nav li a{
+	padding:5px 0;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:100%;
+	font-weight:100;
+	display:block;
+}
+.main-nav li a:hover{	
+background-color:#87cefa;
+border-bottom:2px solid #bf55ec;
+}
+.product{
+	width:185px;
+	height:300px;
+	text-align:left;
+	padding:150px 30px;
+}
+.product li{
+	
+}
+.product ul li{
+	
+	float:top;
+	bottom:70px;
+	opacity:0.6;
+	color:black;
+	font-size:20px;
+	
+}
+.product ul li ul{
+	position:relative;
+	display:none;
+}
+.product ul li:hover > ul{
+	display:block;
+	
+}
+.product ul li:hover{
+	background-color:#fff;
+	border-bottom:2px solid #bf55ec;
+}
+.product1{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:130px;
+	left:calc(30% - 50px);
+}
+.productpic1 h4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:300px;
+	left:calc(30% - 50px);
+}
+.productpic1 input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#87cefa;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.productpic1 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+.product2{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:130px;
+	left:calc(50% - 50px);
+}
+.productpic2 h4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:300px;
+	left:calc(50% - 50px);
+}
+.productpic2 input[type="submit"]
+{
+	top:20px;
+	border:none;
+	outline:none;
+	height:40px;
+	background:#87cefa;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.productpic2 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+.product3{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:130px;
+	left:calc(70% - 50px);
+}
+.productpic3 h4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:300px;
+	left:calc(70% - 50px);
+}
+.productpic3 input[type="submit"]
+{
+	top:20px;
+	border:none;
+	outline:none;
+	height:40px;
+	background:#87cefa;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.productpic3 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+.product4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:400px;
+	left:calc(30% - 50px);
+}
+.productpic4 h4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:570px;
+	left:calc(30% - 50px);
+}
+.productpic4 input[type="submit"]
+{
+	top:20px;
+	border:none;
+	outline:none;
+	height:40px;
+	background:#87cefa;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.productpic4 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+.product5{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:400px;
+	left:calc(50% - 50px);
+}
+.productpic5 h4{
+	width:150px;
+	height:180px;
+	position:absolute;
+	top:570px;
+	left:calc(50% - 50px);
+}
+.productpic5 input[type="button"]
+{
+	top:20px;
+	border:none;
+	outline:none;
+	height:40px;
+	background:#87cefa;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.productpic5 input[type="button"]:hover
+{
+	cursor:pointer;
+	background:#39dc79;
+	color:#000;
+}
+h4{
+	
+	position:absolute;
+	top:90px;
+	left:calc(10% - 50px);
+}

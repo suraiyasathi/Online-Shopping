@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	padding:0;
+	background:url(profile.JPG);
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+	height:720px;
+}
+h1{
+	margin:5px;
+	padding:0 0 10px;
+	text-align:right;
+	font-size:16px;
+	margin-top:40px;
+	list-style:none;
+}
+.main-nav{
+	float:left;
+	margin-top:90px;
+}
+.main-nav li{
+	display:inline-block;
+	list-style:none;
+	margin-right:23px;
+}
+.main-nav li a{
+	padding:5px 0;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:100%;
+	font-weight:100;
+	display:block;
+}
+.main-nav li a:hover{
+background-color:#87cefa;	
+border-bottom:2px solid #bf55ec;
+}
